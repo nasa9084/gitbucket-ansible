@@ -1,0 +1,5 @@
+---
+- hosts: gitbucket
+  become: yes
+  roles:
+    - gitbucket

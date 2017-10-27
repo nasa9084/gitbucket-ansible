@@ -1,0 +1,9 @@
+[Unit]
+Description="GitBucket"
+
+[Service]
+ExecStart=/bin/java -jar /gitbucket.war
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
